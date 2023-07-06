@@ -25,7 +25,8 @@
     border-radius: 15px;
     box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
     /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
-
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #animatedBG{
