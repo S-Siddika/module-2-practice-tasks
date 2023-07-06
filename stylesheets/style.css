@@ -1,0 +1,42 @@
+
+
+.headerText {
+  text-align: left;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  }
+
+.center{
+    margin: auto;
+    text-align: center;
+    width: 95vw;
+}
+
+#para{
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    /* height: 25vh; */
+    width: 95vw;
+    border: 3px groove rgba(36, 105, 233, 0.781);
+    border-radius: 15px;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+
+}
+
+#animatedBG{
+    /* width: 300px;
+    height: 200px; */
+    background: rgba(99, 140, 253, 0.555);
+    animation: colorChange 5s infinite;
+    border-radius: 40px 15px;
+  }
+  
+  @keyframes colorChange {
+    from {background-color: rgba(99, 140, 253, 0.555);}
+    to {background-color: rgba(124, 99, 212, 0.459);}
+  }
