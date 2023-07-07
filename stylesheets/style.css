@@ -14,7 +14,6 @@
     color: black;
     }
   
-    /* style="background-color:#33cc33;width:80%;text-align:center;padding:2px;margin:0 auto" */
   #para{
       width:80%;
       text-align:center;
@@ -22,7 +21,7 @@
       /*margin:0, auto;*/ 
       /*!!!!NO COMA!!! between margin values*/
       /*Spent hours trying to solve the issue of div centering because of this!!!*/
-      margin: 0 auto; 
+      margin: 5px auto; 
       border: 3px groove rgba(36, 105, 233, 0.781);
       border-radius: 15px;
       box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
@@ -30,6 +29,7 @@
       text-align:center;
       font-weight: 900;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      background-image: linear-gradient(red, yellow);   
   }
   
   #animatedBG{
