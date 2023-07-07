@@ -1,4 +1,21 @@
 
+div.headerImage{
+  width:80%;
+  text-align:center;
+  padding:2px;
+  /*margin:0, auto;*/ 
+  /*!!!!NO COMA!!! between margin values*/
+  /*Spent hours trying to solve the issue of div centering because of this!!!*/
+  margin: 5px auto; 
+  background-image:url("../images/mediterranean-food.jpg");
+  /* adding ../ (dot dot backslash) before folder name solved "image not found" issue */
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-blend-mode: lighten;        
+  }
+
 
 .headerText {
   width:80%;
@@ -38,34 +55,31 @@
   transition: background-color 0.5s ease;
   } */
 
-  #animatedBG1{
-      /* width: 300px;
-      height: 200px; */
-      background-color:orangered;
-      animation: colorChange1 5s linear infinite;
-      border-radius: 15px;
+  #animatedBGbody{
+      background-color:orange;
+      animation: colorChange 10s linear infinite;
+      /* border-radius: 15px; */
       margin: auto;
       text-align:center;
     }
-    @keyframes colorChange1 {
-      from {background-color: orangered;}
-      to {background-color: yellow;}
+    @keyframes colorChange {
+      0%, 100% {background-color: orange;}
+      25% {background-color: yellow;}
     }
-  
-    #animatedBG2{
-      /* width: 300px;
-      height: 200px; */
-      background-color:yellow;
+  /* using keyframes percentage for smooth transition */
+
+    #animatedBGbanner{
+      background-color:lightblue;
       animation: colorChange2 5s linear infinite;
-      border-radius: 15px;
+      /* border-radius: 15px; */
       margin: auto;
       text-align:center;
     }
     @keyframes colorChange2 {
-      from {background-color: yellow;}
-      to {background-color: orangered;}
+      0%, 100% {background-color: lightblue;}
+      50% {background-color: lightsteelblue;}
     }
-  
+    /* using keyframes percentage for smooth transition */
 
     .button{
       background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
