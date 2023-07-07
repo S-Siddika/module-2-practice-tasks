@@ -68,19 +68,36 @@ div.headerImage{
     }
   /* using keyframes percentage for smooth transition */
 
-    #animatedBGbanner{
+    /* #animatedBGbanner{
       background-color:lightblue;
-      animation: colorChange2 5s linear infinite;
-      /* border-radius: 15px; */
+      animation: colorChangeBanner 5s linear infinite;
       margin: auto;
       text-align:center;
     }
-    @keyframes colorChange2 {
+    @keyframes colorChangeBanner {
       0%, 100% {background-color: lightblue;}
       50% {background-color: lightsteelblue;}
-    }
+    } */
     /* using keyframes percentage for smooth transition */
 
+    #gradientBG {
+      background: linear-gradient(-45deg, gray, rgb(6, 137, 177), lightblue, steelblue);
+      background-size: 400% 400%;
+      animation: gradientAnimated 15s ease infinite;
+    }
+    
+    @keyframes gradientAnimated {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
     .button{
       background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
       margin: 10px;
