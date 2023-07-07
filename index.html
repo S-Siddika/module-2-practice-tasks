@@ -15,9 +15,13 @@
 
       
       div.headerImage{
-      height: 25vh;
-      width: 90vw;
-      margin: 1rem;
+      width:80%;
+      text-align:center;
+      padding:2px;
+      /*margin:0, auto;*/ 
+      /*!!!!NO COMA!!! between margin values*/
+      /*Spent hours trying to solve the issue of div centering because of this!!!*/
+      margin: 5px auto; 
       background-image:url("images/mediterranean-food.jpg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -39,17 +43,17 @@
 
 <body>
 
-  <header>
-  </header>
+  <header></header>
 
-  <div class="headerImage">
-    <div class="headerText">
-      <h1> Popular Mediterranean Foods </h1>
+  <main>
+    <div id="animatedBG1" class="headerImage" >
+      <div class="headerText" >
+        <h1> Popular <br>Mediterranean <br>Foods </h1>
+      </div>
+
     </div>
 
-  </div>
-
-    <section id="animatedBG">
+    <section id="animatedBG1"  id="animatedBG2" >
 
         <div id="para">    
           
@@ -94,7 +98,9 @@
   
     <!-- module2:task6.i.d: creating a button -->
   </section>
+</main>
 
+<footer></footer>
  </body>
 
 
